@@ -34,9 +34,12 @@ let reverse = () => {
 
 document.querySelector("#exchange-logo").addEventListener("click", reverse);
 
+// Showing Loading Exchnage Rate ... text as result
+let resultText = () => {
+    result.innerHTML = "Loading Exchnage Rate ...";
+};
 
 // convertCurrency
-
 let convertCurrency = () => {
     const amount = document.querySelector("#amount-enter");
     let amountVal = amount.value;
@@ -75,3 +78,7 @@ window.addEventListener("load", convertCurrency);
 document
     .querySelector("#convert-btn")
     .addEventListener("click", convertCurrency);
+
+document
+    .querySelector("#convert-btn")
+    .addEventListener("click", resultText);
