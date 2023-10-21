@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="outer-box">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="logo">
+                <span class="heading">Currency Converter</span>
+            </div>
+
+            <div>
+                <div class="amount">
+                    <label for="amount">Enter Amount</label>
+                    <input type="number" name="amount" id="amount-enter">
+                </div>
+
+                <div class="currecy_selector">
+                    <label>From</label>
+                    <label id="to">To</label>
+                </div>
+
+                <div class="selector">
+                    <select id="from-currency-select"></select>
+                    <img src="./assets/exchange-logo.png" id="exchange-logo" alt="exchange">
+                    <select id="to-currency-select"></select>
+                </div>
+
+                <p id="result">Loading Exchnage Rate ...</p>
+
+                <div class="convert">
+                    <button id="convert-btn">Convert</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- script with array of supported country code -->
+    <script src="./js/currency-code.js"></script>
+    <!-- Link Script -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

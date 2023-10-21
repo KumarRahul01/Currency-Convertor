@@ -1,0 +1,154 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* General CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%); */
+    background-color: #6A5ACD;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box {
+    width: auto;
+    height: auto;
+    padding-block: 4%;
+    padding-inline: 3%;
+    margin-block: 2%;
+    border-radius: 10px;
+    border: 1px solid #999;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.logo img {
+    width: 80px;
+    display: inline-block;
+    /* border: 2px solid blue; */
+}
+
+.heading {
+    display: inline-block;
+    /* border: 2px solid blue; */
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.amount {
+    padding: 5% 0 2% 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input{
+    margin: 5% 0;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    border: 2px solid #999;
+    padding-inline: 5px;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:focus{
+    border: 2px solid black;
+}
+
+.currecy_selector{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+#to{
+    margin-right: 30%;
+}
+
+.selector {
+    display: flex;
+    margin-block: 3%;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+.selector select {
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2px;
+}
+
+#exchange-logo{
+    /* margin-top: 5px; */
+    height: 30px;
+    cursor: pointer;
+}
+
+#result{
+    /* display: none; */
+    margin-block: 8%;
+    /* border: 2px solid #ccc; */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.convert{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.convert button{
+    padding: 5px 10px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #6A5ACD;  
+}
+
+.convert button:hover{
+    transition: 0.5s ease;
+    transform: translateY(3px);
+}
+
+
+/* Media Queries */
+
+@media (max-width: 320px) {
+    
+}
