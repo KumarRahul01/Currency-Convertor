@@ -150,5 +150,14 @@ input:focus{
 /* Media Queries */
 
 @media (max-width: 320px) {
-    
+    .outer-box {
+        width: auto;
+        height: auto;
+        padding-block: 4%;
+        margin-inline: 2%;
+        margin-block: 2%;
+        border-radius: 10px;
+        border: 1px solid #999;
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    }
 }
