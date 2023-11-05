@@ -1,6 +1,6 @@
 Innovixiontech-Oct Virtual Internship For Web Development.
 
-# [Currency Converter](https://kumarrahul01.github.io/Innovixiontech-Oct-Task-1/)
+# [Currency Converter](https://kumarrahul01.github.io/Currency-Convertor/)
 
 
 This is a Basic Currency Converter made by using HTML, CSS, JavaScript.
