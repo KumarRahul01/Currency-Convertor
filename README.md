@@ -1,4 +1,3 @@
-Innovixiontech-Oct Virtual Internship For Web Development.
 
 # [Currency Converter](https://kumarrahul01.github.io/Currency-Convertor/)
 
